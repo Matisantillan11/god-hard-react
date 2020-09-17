@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navBar{
+    height: 10vh;
+    background: #1b1b20;
+    
+}
+
+.navBar__container{
+    display: flex;
+}
+
+.navBar__container--logo{
+    width: 7%;
+    height: 11vh;
+}
+
+.navBar__container--link{
+    color: #f2f2f2;
+    margin: 1.6% 0 0 1%;
+}
