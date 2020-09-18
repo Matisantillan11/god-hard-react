@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.we-are{
+    height: 80vh;
+    
+}
+
+.we-are__title{
+    padding-top: 3%;
+    margin: 0 0 2% 43%;
+    
+}
+
+.we-are__container{
+    width: 75%;
+    height: 60%;
+    margin-left: 12%;
+    font-size: 18px;
+    padding: 5% 1% 0 1%;
+    text-align: center;
+    background:#f1f1f1;
+}

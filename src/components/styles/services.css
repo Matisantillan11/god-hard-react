@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.our-services{
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.our-services__title{
+    margin:0% 0 3% 46%
+}
+.our-services__services{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.our-services__container{
+    width: 25%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 3% 2% 1% 2%;
+    margin:3%;
+    height: 350px;
+    
+}
+
+.our__service-img{
+    border-radius: 50%;
+    width: 7%;
+    height: 60px;
+}
+
+.our__service-title{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.our-services__container .our__service-img{
+    position: absolute;
+    margin: -5% 0 0 6.8%;
+}
