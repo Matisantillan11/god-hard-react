@@ -27,3 +27,24 @@
     text-align: center;
     background:#f1f1f1;
 }
+
+.our-purpose{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.our-purpose__container{
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.our-purpose__img{
+    width: 500px;
+    height: 350px;
+}
+.our-purpose__container-text{
+    padding: 3%;
+    text-align: center;
+    width: 500px;
+}
