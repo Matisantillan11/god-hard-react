@@ -11,6 +11,13 @@ class NavBar extends React.Component{
                         <img className="navBar__container--logo" src={logo} alt=""/>
                         <a className="navBar__container--link"> GodHard: Solucines informáticas</a>
                     </div>
+                
+                    <ul className="navBar__list">
+                        <li><a className="navBar__list-item">¿Quienes somos?</a></li>
+                        <li><a className="navBar__list-item">Servicios</a></li>
+                        <li><a className="navBar__list-item">Contactar</a></li>
+                    </ul>
+                    
                 </div>
             </React.Fragment>
             

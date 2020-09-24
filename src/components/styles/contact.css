@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+.contact--title{
+    text-align:center;
+    margin-bottom: 1rem;
+}
 
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
+.contact__container{
+    margin-left: 28%;
+}
+
+.contact__container--redes{
+    margin-top: .3rem;
+    margin-left: 18%;
+}
+.contact__container--redes a>img{
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem; 
 }

@@ -1,0 +1,24 @@
+
+.footer{
+    height: 45vh;
+    color: #f1f1f1;
+    background: #1b1b20;
+    padding-top: .5%;
+    
+}
+
+.footer__container{
+    display:flex;
+}
+
+.payment{
+    border-right: 3px solid white;
+    width: 50%;
+    margin: 1.5rem 0 1rem 0rem;  
+    padding-left: 2rem; 
+}
+
+.contact{
+    width: 50%;
+    margin: 1.5rem 0 1rem 0rem; 
+}

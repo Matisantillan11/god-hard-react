@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-}
 
 .we-are{
     height: 80vh;
@@ -20,7 +12,7 @@
 
 .we-are__container{
     width: 75%;
-    height: 60%;
+    height: 75%;
     margin-left: 12%;
     font-size: 18px;
     padding: 5% 1% 0 1%;
@@ -28,23 +20,21 @@
     background:#f1f1f1;
 }
 
-.our-purpose{
+.misionAndVision__container{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 5%;
-}
-.our-purpose__container{
-    border-radius: 5%;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5% 0;
 }
 
-.our-purpose__img{
-    width: 500px;
-    height: 350px;
+.misionAndVision-btn{
+    padding: 1rem;
+    border: 2px solid #f6f6f6;
+    border-radius: .8rem;
+    outline: none;
+    color: #f1f1f1;
+    background: #1b1b20;
 }
-.our-purpose__container-text{
-    padding: 3%;
-    text-align: center;
-    width: 500px;
+
+.misionAndVision-btn:hover{
+    cursor: pointer;
 }

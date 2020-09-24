@@ -7,6 +7,7 @@ import Services from '../components/services';
 import Us from '../components/us';
 import Contact from '../components/contact'
 
+
 import './styles/homePage.css';
 
 class HomePage extends React.Component{
@@ -23,7 +24,6 @@ class HomePage extends React.Component{
                 </div>
                 <Us />
                 <Services />
-                <Contact />
                 <Footer />
             </div>
         )

@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
-}
 
 .navBar{
-    height: 10vh;
+    height: 12vh;
     background: #1b1b20;
-    
+    position:fixed;
+    display: flex;
+    z-index: 1;
 }
 
 .navBar__container{
@@ -24,5 +18,34 @@
 
 .navBar__container--link{
     color: #f2f2f2;
-    margin: 1.6% 0 0 1%;
+    margin: 2% 0 0 1%;
+}
+
+.navBar__list-container{
+   
+    width: 600px;
+    margin: 2%;
+    
+}
+.navBar__list{
+    display: flex; 
+    list-style: none;
+    float: right;
+    margin: 1%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+li .navBar__list-item{ 
+    display: inline-block;
+    color: #ffff;
+    padding: 5%;
+    margin-right:28px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10%;
+}
+
+.navBar__list-item:hover{
+    cursor:pointer;
+    text-decoration: underline;
 }
