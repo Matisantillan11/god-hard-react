@@ -12,7 +12,7 @@ import './styles/services.css'
 class Services extends React.Component{
     render(){
         return(
-            <div>
+            <div id="services">
                 <div className="our-services">
                     <h2 className="our-services__title">SERVICIOS</h2>
                     <div className="our-services__services">

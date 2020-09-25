@@ -7,6 +7,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header{
     height: 80vh;
     background: url("../../images/technology-header.jpg"), #1b1b2580;
