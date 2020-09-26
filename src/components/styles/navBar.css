@@ -4,7 +4,7 @@
     background: #1b1b20;
     position:fixed;
     display: flex;
-    z-index: 1;
+    z-index: 100;
 }
 
 .navBar__container{
@@ -13,16 +13,15 @@
 
 .navBar__container--logo{
     width: 7%;
-    height: 11vh;
+    height: 85px;
 }
 
 .navBar__container--link{
     color: #f2f2f2;
     margin: 2% 0 0 1%;
-}
+} 
 
 .navBar__list-container{
-   
     width: 600px;
     margin: 2%;
     
@@ -40,12 +39,37 @@ li .navBar__list-item{
     display: inline-block;
     color: #ffff;
     padding: 5%;
-    margin-right:28px;
-    border: 1px solid #f1f1f1;
-    border-radius: 10%;
+    margin-right:28px; 
+    text-decoration: none;
 }
 
+li:last-child .navBar__list-item{ 
+    border: 1px solid #f1f1f1;
+    border-radius: 10%;
+    
+    
+}
 .navBar__list-item:hover{
     cursor:pointer;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+    .navBar{
+        padding-top: 2%;
+    }
+    .navBar__container--logo{
+        width: 30%;
+    }
+
+    .navBar__container--link{
+        font-size: 20px;
+        margin-top:3%;
+    } 
+    
+    li{ display: none;}
+}
+
+@media screen and (max-width: 400px){
+    
 }

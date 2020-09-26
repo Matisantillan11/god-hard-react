@@ -22,3 +22,27 @@
     width: 50%;
     margin: 1.5rem 0 1rem 0rem; 
 }
+
+@media screen and (max-width: 600px){
+    .footer{
+        height: 61vh; 
+    }
+
+    .footer__container{
+        display:block;
+    }
+
+    .payment{
+        border-right: none;
+        border-bottom: 3px solid white;
+        width: 95%; 
+        margin-left: 2%;
+        padding:2% 0; 
+    }
+
+    .contact{
+        width: 100%;
+    }
+}
+
+

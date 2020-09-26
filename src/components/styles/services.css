@@ -5,7 +5,7 @@
 }
 
 .our-services__title{
-    margin:0% 0 3% 46%
+    margin:0% 0 3% 46%;
 }
 .our-services__services{
     display:flex;
@@ -37,4 +37,30 @@
 .our-services__container .our__service-img{
     position: absolute;
     margin: -5% 0 0 6.8%;
+}
+
+@media screen and (max-width: 600px){
+    .our-services__title{
+        margin:5% 35% ;
+    }
+
+    .our-services__services{
+        display:block;
+    }
+
+    .our-services__container{
+        width: 85%;
+        padding: 15% 2% 8% 2%;
+        margin:10% 0 10% 8%;
+    }
+
+    .our__service-img{
+        width: 17%;
+        height: 130px;
+    }
+
+    .our-services__container .our__service-img{
+        position: absolute;
+        margin: -30% 0 0 30%;
+    }
 }
