@@ -9,7 +9,7 @@ class NavBar extends React.Component{
                 <div className="navBar">
                     <div className="navBar__container">
                         <img className="navBar__container--logo" src={logo} alt=""/>
-                        <a className="navBar__container--link"> GodHard: Solucines informáticas</a>
+                        <a className="navBar__container--link"> GodHard: Soluciones informáticas</a>
                     </div>
                 
                     <ul className="navBar__list">

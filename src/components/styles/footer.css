@@ -1,6 +1,7 @@
 
 .footer{
-    height: 45vh;
+    width: 100vw;
+    height: 60vh;
     color: #f1f1f1;
     background: #1b1b20;
     padding-top: .5%;
@@ -8,32 +9,27 @@
 }
 
 .footer__container{
-    display:flex;
+    display:block;
 }
 
 .payment{
-    border-right: 3px solid white;
-    width: 50%;
-    margin: 1.5rem 0 1rem 0rem;  
-    padding-left: 2rem; 
+    border-bottom: 3px solid white;
+    width: 95%; 
+    margin-left: 2%;
+    padding:2% 0; 
 }
 
 .contact{
-    width: 50%;
-    margin: 1.5rem 0 1rem 0rem; 
+    width: 100%;
+    padding: 3% 0;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
     .footer{
-        height: 61vh; 
-    }
-
-    .footer__container{
-        display:block;
+        height: 60vh; 
     }
 
     .payment{
-        border-right: none;
         border-bottom: 3px solid white;
         width: 95%; 
         margin-left: 2%;
@@ -43,6 +39,47 @@
     .contact{
         width: 100%;
     }
+}
+
+@media screen and (min-width: 650px){
+    .footer{
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 770px){
+    .footer{
+        height: 70vh
+    }
+}
+
+@media screen and (min-width: 850px){
+    .footer{
+        height: 60vh;
+    }
+    .footer__container{
+        display:flex;
+    }
+    .payment{
+        border-bottom: none;
+        border-right: 3px solid white;
+        width: 50%;
+        margin: 2% 0 1.5% 0;  
+        padding-left: 3%; 
+    }
+    
+    .contact{
+        width: 50%;
+        margin: 2% 0 0 0; 
+    }
+}
+
+@media screen and (min-width: 1200px){
+    
+    
+    
+    
+    
 }
 
 
