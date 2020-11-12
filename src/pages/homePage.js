@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
 import NavBar from '../components/NavBar';
@@ -7,11 +7,18 @@ import Services from '../components/services';
 import Us from '../components/us';
 import Contact from '../components/contact'
 
+import ReactGA from 'react-ga';
 
 import './styles/homePage.css';
 
-class HomePage extends React.Component{
-    render(){
+const HomePage= ()=>{
+    
+    
+        useEffect(()=>{
+
+        ReactGA.initialize('G-3LK7V8J38J')
+        ReactGA.pageview(window.location.pathname + window.location.search)
+    }, [])
         return (
             <div>
                 <NavBar />
@@ -28,6 +35,6 @@ class HomePage extends React.Component{
             </div>
         )
     }
-}
+
 
 export default HomePage;
